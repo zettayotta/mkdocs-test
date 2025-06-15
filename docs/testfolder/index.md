@@ -32,23 +32,6 @@ The server is defined in `IT.ods/Devices`.
         - [x]  Elevate new users privileges with sudo: `usermod -aG sudo <username>` add the user to to sudo group
         - [x]  Test new user: `su - <usename>` switches user, and type a sudo command to verify it’s working
     - [ ]  
-    
-
-# Log
-
-**12/06/2025**
-
-Obtained a root password via the rescue option in the server dashboard. (not shure if this is necessary?)
-
-Added new user `abjelke` (1000) → group `abjelke` (1000) added → home directory /home/abjelke added.
-
-Copied/synced SSH key from root to abjelke: `rsync -a --chown=root:abjelke /root/.ssh/ /home/abjelke/.ssh/`
-
-**10/06/2025** Started the server.
-
-Uploaded the SSH keys for AB-FAST23-WIN on server creation.
-
-Tested SSH (as root) with PowerShell and VS Code.
 
 # Use cases and considerations
 
