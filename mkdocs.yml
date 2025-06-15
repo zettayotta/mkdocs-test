@@ -1,0 +1,3 @@
+site_name: AB test MkDocs
+theme:
+  name: material
