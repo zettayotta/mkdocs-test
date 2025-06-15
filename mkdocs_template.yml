@@ -1,31 +1,38 @@
+# My new template based on:
+# squidfunk: https://github.com/squidfunk/mkdocs-material/blob/master/mkdocs.yml
+# ironicbadger: https://github.com/ironicbadger/pms-wiki/blob/main/mkdocs.yml
+# fblettner: https://github.com/fblettner/fblettner.github.io/blob/main/mkdocs.yml
+# james-willett: https://github.com/james-willett/jameswillett.dev/blob/main/mkdocs.yml
+
 # Project information
 site_name: My new MkDocs site
-# site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Axel Bjelke
-site_description: Description of my new site comes here...
+site_url: https://squidfunk.github.io/mkdocs-material/
+site_author: Martin Donath
+site_description: >-
+  Write your documentation in Markdown and create a professional static site in
+  minutes – searchable, customizable, in 60+ languages, for all devices
 
 # Repository
-# repo_name: squidfunk/mkdocs-material
-# repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: squidfunk/mkdocs-material
+repo_url: https://github.com/squidfunk/mkdocs-material
 
 # Copyright
-copyright: Copyright &copy; 2025 Axel Bjelke - This work is licensed under CC BY-NC-SA 4.0
+copyright: Copyright &copy; 2016 - 2025 Martin Donath - This work is licensed under CC BY-NC-SA 4.0
 
 # Configuration
 theme:
   # Setup and theme structure: https://squidfunk.github.io/mkdocs-material/customization/#setup-and-theme-structure
   name: material
-  # custom_dir: material/overrides
+  custom_dir: material/overrides
   # Changing the logo and icons: https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
-  #logo: assets/logo.png
-  #favicon: assets/favicon.ico
-  #icon:
-  #  repo: fontawesome/brands/github
-  #  logo: fontawesome/regular/folder-open
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
+    logo: fontawesome/regular/folder-open
   # Changing the fonts: https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
-    text: Roboto
-    code: Roboto Mono
+    code: Jet Brains Mono
   # Changing the language: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/
   language: en
   # Changing the colors: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
@@ -46,10 +53,34 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  # features:
-  # insiders only
-    # - navigation.path # breadcrumbs at the top of each page
-    # - search.suggest
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
 
 # Plugins
 plugins:
@@ -71,6 +102,19 @@ extra:
   status:
     new: Recently added
     deprecated: Deprecated
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/squidfunk
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/mkdocs-material/
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/squidfunk.bsky.social
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/squidfunk
 
 # Extensions
 markdown_extensions:
@@ -98,5 +142,5 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-# nav:
+nav:
 #  - Home: index.md
