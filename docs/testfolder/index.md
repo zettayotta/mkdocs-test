@@ -1,8 +1,25 @@
+# This is a header
+
 *06/2025 Started a new instance of a cloud server based on Ubuntu 24.04 with Docker CE.*
+
+## H2
+### H3
+#### H4
+##### H5
 
 The server is defined in `IT.ods/Devices`.
 
-# To-do
+``` yaml
+theme:
+  features:
+    - content.code.annotate #
+```
+KJpbpib[^1]
+
+[^1]: man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
+    text__, images, ... basically anything that can be written in Markdown.
+
+## To-do
 
 - [ ]  Check docker stats
 - [x]  Obtain root password (password is not sent via e-mail when the server is initially configured with SSH keys)
@@ -33,7 +50,7 @@ The server is defined in `IT.ods/Devices`.
         - [x]  Test new user: `su - <usename>` switches user, and type a sudo command to verify it’s working
     - [ ]  
 
-# Use cases and considerations
+## Use cases and considerations
 
 *A platform for technical documentation (and possibly other things as well).*
 
