@@ -1,13 +1,24 @@
 ---
-title: About me
-description: Nullam urna elit, malesuada eget finibus ut, ac tortor.
 status: new
-icon: material/emoticon-happy
+# date: 2024-06-01
+created: 2024-06-01
+# updated: 2024-06-10
+
+title: About
+description: Nullam urna elit, malesuada eget finibus ut, ac tortor.
+authors:
+  - Axel Bjelke
+
+#hide:
+#  - toc
+#  - navigation
+
+# icon: material/emoticon-happy
 tags:
-  - exampletag1
+  - tag1
 ---
 
-# This is the first section
+# About
 'ødalm¨dvnk¨
 ælckndonkcvå
 
