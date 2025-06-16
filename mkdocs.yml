@@ -55,6 +55,8 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - content.action.edit
+    - content.action.view
     # Setting up navigation: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
     - navigation.instant # !The site_url setting must be set! When instant loading is enabled, clicks on all internal links will be intercepted and dispatched via XHR without fully reloading the page.
     #- navigation.instant.prefetch # Insiders only
@@ -162,3 +164,4 @@ nav:
   - Topic 2:
     - Entry 2: testfolder/index.md
   - Tags: tags.md
+  - About: about/about.md

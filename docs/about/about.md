@@ -1,5 +1,8 @@
 ---
-title: Lorem ipsum dolor sit amet
+title: About me
+description: Nullam urna elit, malesuada eget finibus ut, ac tortor.
+status: new
+icon: material/emoticon-happy
 tags:
   - exampletag1
 ---
