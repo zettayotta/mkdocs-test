@@ -164,14 +164,14 @@ nav:
       - it/server/index.md
       - Cloud: it/server/cloud/cloud.md
       - NAS: it/server/nas/nas.md
+    - Homelab:
+      - it/homelab/index.md
+      - it/homelab/future_plans.md
+      - Testfolder:
+        - it/homelab/testfolder/page1.md
+        #- it/homelab/testfolder/page2.md
     #- Software:
     #- Local infrastructure:
     #- Remote infrastructure:
-  - Main topic:
-    - New entry: testfolder/index.md
-    - Test:
-      - testfolder/index.md
-  - Topic 2:
-    - Entry 2: testfolder/index.md
   - Tags: tags.md
   - About: about/about.md
