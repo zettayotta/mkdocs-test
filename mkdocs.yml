@@ -1,12 +1,13 @@
 # Project information
-site_name: My new MkDocs site
+site_name: aBjelke
 # site_url: https://squidfunk.github.io/mkdocs-material/
 site_author: Axel Bjelke
 site_description: Description of my new site comes here...
 
 # Repository
-# repo_name: squidfunk/mkdocs-material
-# repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: zettayotta/mkdocs-test
+repo_url: https://github.com/zettayotta/mkdocs-test
+# edit_uri: edit/main/docs/ # Specify the path from the base repository URL (repo_url) to the directory where your documentation source files are stored. See also: https://www.mkdocs.org/user-guide/configuration/
 
 # Copyright
 copyright: Copyright &copy; 2025 Axel Bjelke - This work is licensed under CC BY-NC-SA 4.0
@@ -15,7 +16,8 @@ copyright: Copyright &copy; 2025 Axel Bjelke - This work is licensed under CC BY
 theme:
   # Setup and theme structure: https://squidfunk.github.io/mkdocs-material/customization/#setup-and-theme-structure
   name: material
-  # custom_dir: material/overrides
+  # The custom_dir setting is used to specify a directory containing customizations or overrides for the theme files. See also:https://www.mkdocs.org/user-guide/customizing-your-theme/
+  # custom_dir:
   # Changing the logo and icons: https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
   #logo: assets/logo.png
   #favicon: assets/favicon.ico
@@ -27,9 +29,14 @@ theme:
     text: Roboto
     code: Roboto Mono
   # Changing the language: https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/
-  language: en
+  # language: en # Default is 'en'. Multi language require som extra work (as of 2025). 
   # Changing the colors: https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
   palette:
+     # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -41,8 +48,8 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      accent: teal
       primary: deep orange
+      accent: teal
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -110,4 +117,4 @@ nav:
     - Test:
       - testfolder/index.md
   - Topic 2:
-    - Entry 2: testfolder/index.md      
+    - Entry 2: testfolder/index.md
