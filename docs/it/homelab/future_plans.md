@@ -19,4 +19,7 @@ tags:
 ---
 
 # Future plans
+
 Lorem ipsum...
+
+![The San Juan Mountains are beautiful!](DSC_2559.JPG "San Juan Mountains")
