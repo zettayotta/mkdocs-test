@@ -5,6 +5,7 @@ site/
 venv/
 # ignore my temporary template directory
 .template/
+templates/
 .cache/
 .test-secrets
 .vscode/
