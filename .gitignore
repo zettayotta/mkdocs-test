@@ -3,6 +3,8 @@
 site/
 # ignore Python virtual environment
 venv/
+# ignore my temporary template directory
+.template/
 .cache/
 .test-secrets
 .vscode/
