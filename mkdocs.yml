@@ -110,8 +110,8 @@ extra:
       link: https://www.youtube.com/@AxelBjelke
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/axel-bjelke-25b5a48a/
-  tags: # Maps tag names to identifiers for icons. Assigns icons to tag identifiers under 'theme.icon.tag'.
-    MkDocs: mkdocs
+  # tags: # Maps tag names to identifiers for icons. Assigns icons to tag identifiers under 'theme.icon.tag'.
+    # MkDocs: mkdocs
 
 # Extensions
 markdown_extensions:
