@@ -5,7 +5,7 @@ site_author: Axel Bjelke
 site_description: Description of my new site comes here...
 
 # Repository
-repo_name: zettayotta/mkdocs-test
+# repo_name: zettayotta/mkdocs-test
 repo_url: https://github.com/zettayotta/mkdocs-test
 #edit_uri: edit/main/docs/ # Specify the path from the base repository URL (repo_url) to the directory where your documentation source files are stored. See also: https://www.mkdocs.org/user-guide/configuration/
 
@@ -21,8 +21,8 @@ theme:
   # Changing the logo and icons: https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/
   logo: assets/logo_144x144.png
   #favicon: assets/favicon.ico
-  #icon:
-    #repo: fontawesome/brands/github
+  icon:
+    repo: fontawesome/brands/github
     #logo: fontawesome/regular/folder-open
   # Changing the fonts: https://squidfunk.github.io/mkdocs-material/setup/changing-the-fonts/
   font:
@@ -71,6 +71,7 @@ theme:
     #- navigation.prune # When pruning is enabled, only the visible navigation items are included in the rendered HTML, reducing the size of the built site by 33% or more.
     - navigation.indexes # When section index pages are enabled, documents can be directly attached to sections, which is particularly useful for providing overview pages.
     - navigation.top # Back-to-top button
+    # - navigation.repo
     - search.suggest # When search suggestions are enabled, the search will display the likeliest completion for the last word which can be accepted with the Right key.
     - search.highlight # When search highlighting is enabled and a user clicks on a search result, Material for MkDocs will highlight all occurrences after following the link.
     - toc.follow # When anchor following for the table of contents is enabled, the sidebar is automatically scrolled so that the active anchor is always visible.

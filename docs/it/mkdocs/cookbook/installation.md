@@ -19,7 +19,7 @@ tags:
 
 # Installation
 
-Start with VS Code in the base directory of the project defined in prerequisites, and use the integrated terminal. ==UPDATE== MORE!
+Start with VS Code in the base directory of the project defined in prerequisites, and use the integrated terminal. ==UPDATE==
 
 ## Install Material for MkDocs
 
