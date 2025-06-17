@@ -1,11 +1,11 @@
 ---
 status: new
 # date: 2024-06-01
-created: 2025-06-16
+created: 2025-06-17
 # updated: 2024-06-10
 
-title: Page title here!
-description: Nullam urna elit, malesuada eget finibus ut, ac tortor.
+title: Material for MkDocs resources
+description: My personal Material for MkDocs cookbook.
 authors:
   - Axel Bjelke
 
@@ -15,8 +15,8 @@ authors:
 
 # icon: material/emoticon-happy
 tags:
-  - tag1
+  - mkdocs
 ---
 
-# This is the first section
+# Material for MkDocs resources
 Lorem ipsum...

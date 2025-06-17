@@ -1,5 +1,5 @@
 # Project information
-site_name: aBjelke
+site_name: docs-abjelke
 # site_url: https://squidfunk.github.io/mkdocs-material/
 site_author: Axel Bjelke
 site_description: Description of my new site comes here...
@@ -57,6 +57,7 @@ theme:
   features:
     - content.action.edit # Edit this page button for code actions.
     - content.action.view # View source of this page button for code actions.
+    - content.code.copy # Code blocks can automatically render a button on the right side to allow the user to copy a code block's contents to the clipboard.
     # Setting up navigation: https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
     - navigation.instant # !The site_url setting must be set! When instant loading is enabled, clicks on all internal links will be intercepted and dispatched via XHR without fully reloading the page.
     #- navigation.instant.prefetch # Insiders only
@@ -109,6 +110,8 @@ extra:
       link: https://www.youtube.com/@AxelBjelke
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/axel-bjelke-25b5a48a/
+  tags: # Maps tag names to identifiers for icons. Assigns icons to tag identifiers under 'theme.icon.tag'.
+    MkDocs: mkdocs
 
 # Extensions
 markdown_extensions:
@@ -170,6 +173,12 @@ nav:
       - Testfolder:
         - it/homelab/testfolder/page1.md
         #- it/homelab/testfolder/page2.md
+    - Material for MkDocs:
+      - Cookbook:
+        - it\mkdocs\cookbook\index.md
+        - it\mkdocs\cookbook\installation.md
+      - Resources:
+        - it\mkdocs\resources\index.md
     #- Software:
     #- Local infrastructure:
     #- Remote infrastructure:
