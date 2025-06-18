@@ -41,7 +41,7 @@ Installation method: In this guide we use the [Python package](https://pypi.org/
         ```
     
     ===  "Windows"
-        ``` ps title="Activate the Python virtual environment"
+        ``` pwsh title="Activate the Python virtual environment"
         .\venv\Scripts\activate
         ```
     You should see `(venv)` at the start of your prompt, indicating the environment is active.
